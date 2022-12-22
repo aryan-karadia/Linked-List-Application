@@ -1,0 +1,7 @@
+# River Flow Data
+
+This project involves designing and writing a program in C++ for an engineering firm to study the variation of annual water flow in a river. The program should be able to calculate the average flow in a list of data and allow the user to add or remove data from the list. The program will read its input from a text file called "flow.txt" and create a linked list of the data using structures called "ListItem" and "Node". The program will have a class called "FlowList" to hold and manage the set of nodes containing ListItems. The program will also have several global functions, including a main function that creates and uses the objects of FlowList, a function to display an introduction screen, a function to read data from the input file, a function to display a menu and return the user's choice, a function to display the data and average flow, a function to add new data to the list, a function to remove data from the list, a function to calculate the average flow, a function to save the data to the "flow.txt" file, and a function to wait for the user to press the return key.
+
+## Notes
+
+To run this program you must have specified the file location of the "flow.txt" file in the main function of hydro.cpp. The program will not run without this file.
